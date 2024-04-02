@@ -1,0 +1,44 @@
+BAHASA PEMMROGRAMAN
+
+1. bahasa pemrograman sebagai kumpulan atau aturan yang digunakan untuk membantu manusia 
+dalam menjalankan instruksi yang di inginkan ke komputer.
+
+bahasa pemrograman terdiri dari 3 jenis yaitu :
+
+A. bahasa pemrograman tingkat rendah (low-level language)
+bahasa pemrograman yang sangat dekat dengan bahasa mesin (machine code) atau bahasa 
+assembly termasuk kedalam bahasa pemrograman tingkat rendah, contohnya assembly, C, atau C++
+
+B. bahasa pemrograman tingkat menengah (mid level language)
+merupakan bahasa pemrograman yg menggabungkan konsep bahasa tingkat rendah dan tinggi 
+contohnya adalah C#, pascal, atau java bahasa ini lebih mudah di pahami manusia dan lebih banyak di gunakan 
+aplikasi bisnis atau pengembangan perangkat lunak.
+
+C. bahasa pemrograman tingkat tinggi (high level language)
+merupakan bahasa pemrograman yang sangat jauh dari bahasa pemrograman tingkat tinggi adalah phyton ruby, atau javascript, bahasa ini lebih mudah di pahami 
+
+
+2. PERBEDAAN BAHASA PEMROGRAMAN DENGAN BAHASA LAINNYA
+ada beberapa hal yang dapat dibedakan dengan bahasa pemrograman lainnya salah satunya adalah;
+
+A. Sintax
+bahasa pemrograman harus memiliki sintax yang spesif dan harus di ikuti dengan benar agar kode dapat berjalan 
+dengan baik sintax biasanya terstruktur
+
+B. Logika 
+bahasa pemrograman mengikuti logika matematika yang jelas dan tidak bersifat subjektif
+
+C. Scalability
+bahasa pemrograman memungkin kan untuk skalabilitas yang tinggi dalam pengembangan aplikasi yang kompleks hal
+ini akan berbeda jika di banndingkan dengan bahasa lainnya karena bahasa lain tidak memiliki kapasitas seperti ini
+
+3. PARADIGMA PEMROGRAMAN
+
+adalah cara atau gaya berbeda dimana program atau bahasa pemrograman tertentu dapat diatursetiap paradigma terdiri dari struktur, fitur, dan opini tertentu.
+paradigma  memiliki beberapa jenis yaitu :
+a. pemrograman fungsional 
+   bahasa pemrograman dengan memnaggil fungsi dimana setiap bagian program.
+b. programan prosedural
+adalah sebuah paradigma pemrograman 
+c. pemrograman deklaratif
+adalah paradigma pemrograman yang menjelaskan fakta fakta atau rules 
