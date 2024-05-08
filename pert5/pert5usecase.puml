@@ -1,0 +1,35 @@
+@startuml pert5
+
+arah kiri ke kanan
+
+aktor pengguna sebagai "pengguna"
+
+persegi panjang "Kode sumber pert4"{
+    kasus penggunaan "Panggil batal tambah" sebagai tambah
+    kasus penggunaan "Panggilan batal kurang" sebagai kurang
+    kasus penggunaan "Panggil batal bagi" sebagai bagi
+    kasus penggunaan "Panggil batalkan Kali" sebagai kali
+    kasus penggunaan "KELUAR" sebagai KELUAR
+}
+
+penggunaan --> Memasukkan
+memasukkan --> menu; Menu Pilihan
+menu --> tambah 
+tambah --> KELUAR
+
+pengguna --> memasukkan
+memasukkan --> menu; Menu Pilihan
+menu --> kurang 
+tambah --> KELUAR
+
+pengguna --> memasukkan
+memasukkan --> menu; Menu Pilihan
+menu --> kali 
+tambah --> KELUAR
+
+pengguna --> memasukkan
+memasukkan --> menu; Menu Pilihan
+menu --> bagi
+tambah --> KELUAR
+
+@enduml

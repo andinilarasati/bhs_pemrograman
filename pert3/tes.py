@@ -1,5 +1,6 @@
 value_star = input("enter value :")
-value = int (value_star)
+value = int (value_str)
+
 if value >= 90:
     grade = "A"
 elif value >= 80:
