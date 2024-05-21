@@ -1,0 +1,21 @@
+@startuml
+[*] --> Menu : Tampilkan Menu
+Menu : 1. pertambahan
+Menu : 2. pengurangan
+Menu : 3. perkalian
+Menu : 4. pembagian
+Menu --> InputAngka : menghitung Operasi
+InputAngka : Masukkan Angka Pertama
+InputAngka : Masukkan Angka Kedua
+InputAngka --> OperasiPerhitungan : Input Selesai
+OperasiPerhitungan : Hitung Penjumlahan
+OperasiPerhitungan : Hitung Pengurangan
+OperasiPerhitungan : Hitung Perkalian
+OperasiPerhitungan : Hitung Pembagian
+OperasiPerhitungan --> Output : Hasil Perhitungan
+Output : Tampilkan Penjumlahan
+Output : Tampilkan Pengurangan
+Output : Tampilkan Perkalian
+Output : Tampilkan Pembagian
+Output --> [*]
+@enduml

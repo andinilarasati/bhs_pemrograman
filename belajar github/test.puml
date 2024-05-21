@@ -1,0 +1,10 @@
+@startuml 
+
+actor user
+participant "Menu: 1. nasgor 2. uduk 3.pecel" as Menu
+participant "pilih menu" as pilih
+participant "opsi" as pilihan
+participant "pembayaran" as total
+participant "selesai" as selesai
+participant "exit" as keluar
+
