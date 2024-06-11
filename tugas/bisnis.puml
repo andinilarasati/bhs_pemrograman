@@ -1,0 +1,42 @@
+@startuml
+!define RECTANGLE class
+
+title Food Business Workflow
+
+RECTANGLE "Penelitian Pasar" as PM {
+    :Identifikasi peluang besar;
+    :Menilai kebutuhan konsumen;
+    :Mengidentifikasi pasar yang diinginkan;
+}
+
+RECTANGLE "Perencanaan Produk" as PP {
+    :Pengembangan menu;
+    :Merencanakan jenis makanan yang ingin dijual;
+}
+
+RECTANGLE "Persiapan Bisnis" as PB {
+    :Modal dan investasi;
+    :Menghitung modal yang dibutuhkan;
+}
+
+RECTANGLE "Produksi dan Operasional" as PO {
+    :Mencari bahan baku;
+    :Pemasok bahan makanan;
+}
+
+RECTANGLE "Pemasaran" as P {
+    :Menggunakan media sosial;
+    :Mempromosikan bisnis makanan dengan menarik;
+}
+
+RECTANGLE "Manajemen Keuangan" as MK {
+    :Mencatat semua transaksi keuangan;
+}
+
+PM --> PP : "Hasil penelitian pasar"
+PP --> PB : "Rencana produk"
+PB --> PO : "Investasi dan modal"
+PO --> P : "Produksi dan operasional"
+P --> MK : "Pendapatan dari pemasaran"
+
+@enduml
